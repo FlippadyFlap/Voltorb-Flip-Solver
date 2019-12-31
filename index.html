@@ -1,0 +1,380 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<script src = 'index.js' type = 'text/javascript'></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		<div>
+			<div class = "container" id="table">
+
+				<div class = "row actualRow">
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm row-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "6"></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "2"></div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class = "row actualRow">
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm row-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "3"></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "4"></div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class = "row actualRow">
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm row-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "2"></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "3"></div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class = "row actualRow">
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm row-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "8"></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "1"></div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class = "row actualRow">
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+					<div class="col-sm">
+						<input data-toggle ="dropdown" type="text" size = "1" readonly size = "1">
+						<div class="dropdown-menu">
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetBomb(this)">Bomb</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetUnknown(this)">Unknown</a>
+					      <a class="dropdown-item" href="#" onclick = "dropdownSetValue(this)">Value</a>
+					    </div>
+					</div>
+
+
+					<div class="col-sm row-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "8"></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "0"></div>
+						</div>
+					</div>
+
+				</div>
+				
+				<div class="row" id="col-totals">
+					<div class="col-sm col-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "5"></div>
+							</div>
+							<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "2"></div>
+						</div>
+					</div>
+
+					<div class="col-sm col-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "1"></div>
+							</div>
+							<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "4"></div>
+						</div>
+					</div>
+
+					<div class="col-sm col-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "6"></div>
+							</div>
+							<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "2"></div>
+						</div>
+					</div>
+
+
+					<div class="col-sm col-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "8"></div>
+							</div>
+							<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "1"></div>
+						</div>
+					</div>
+
+					<div class="col-sm col-total">
+						<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "5"></div>
+							</div>
+							<div class="row">
+							<div class="col-sm"><input type="text" size = "1" value = "1"></div>
+						</div>
+					</div>
+					
+					<div class="col-sm">
+						<div class="row">
+							<div class="col-sm"><input type="text" readonly size = "1" value = "#"></div>
+							</div>
+							<div class="row">
+							<div class="col-sm"><input type="text" readonly  size = "1" value = "💣"></div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		<button id = "calculate-odds" onclick = "calculateCallback()">Calculate</button>
+
+		<button id = "reset-odds" onclick = "resetCallback()">Reset</button>
+
+		<div id = "error-box"><button onclick="closeErrorCallback()">X</button></div>
+	</body>
+</html>
